@@ -106,6 +106,15 @@ hr {
 #menu.navbar-default .navbar-nav > li > a:hover:after {
 	width: 100%;
 }
+#menu .tel {
+	position: absolute;
+	right: 100px;
+	top: 30px;
+	font-size: 20px;
+}
+#menu .tel .fa {
+	margin-right: 10px;
+}
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background-color: transparent;
 }
@@ -160,7 +169,7 @@ hr {
 	background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
 	padding: 14px 34px;
 	letter-spacing: 1px;
-	margin: 0;
+	margin-top: 100px;
 	font-size: 15px;
 	font-weight: 500;
 	border-radius: 25px;
@@ -187,12 +196,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) center center no-repeat;
+	/* background: url(../img/intro-bg.jpg) center center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	-o-background-size: cover;
+	-o-background-size: cover; */
 }
 .intro .overlay {
 	background: rgba(0,0,0,0.2);
@@ -200,7 +209,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
-	font-size: 82px;
+	font-size: 34px;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-top: 0;
@@ -222,6 +231,33 @@ header .intro-text {
 	padding-top: 350px;
 	padding-bottom: 200px;
 	text-align: center;
+}
+
+.swiper-container {
+	position: relative;
+	width: 100%;
+	height: 900px;
+}
+.swiper-container .swiper-text {
+	position: absolute;
+	text-align: center;
+	font-family: '微软雅黑';
+	color: #fff;
+	font-size: 34px;
+	font-weight: 700;
+	text-transform: uppercase;
+	top: 300px;
+	z-index: 2;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.swiper-container .swiper-text p {
+	line-height: 48px;
+	text-shadow: 5px 5px 5px #2d2d2d;
+}
+.swiper-container img {
+	width: 100%;
+	height: 100%;
 }
 /* Features Section */
 #features {
