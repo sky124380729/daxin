@@ -225,8 +225,9 @@ header .intro-text {
 }
 /* Features Section */
 #features {
+	margin: 100px 0;
 	padding: 100px 0;
-	background: #f6f6f6;
+	background: linear-gradient(to right, #6ab3ff 0%, #ffffff 100%)
 }
 #features i.fa {
 	font-size: 38px;
@@ -334,6 +335,9 @@ header .intro-text {
 #portfolio {
 	padding: 100px 0;
 }
+#servecontent {
+	padding-top: 100px;
+}
 .portfolio-item {
 	border: 1px dotted #5ca9fb;
 	margin: 1px -15px 0 -14px;
@@ -362,7 +366,7 @@ header .intro-text {
 	-webkit-transform: translateY(100%);
 	transform: translateY(100%);
 	transition: all 0.3s;
-	font-size: 18px;
+	font-size: 36px;
 	letter-spacing: 1px;
 	font-weight: 500;
 	text-transform: uppercase;
