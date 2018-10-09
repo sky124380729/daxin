@@ -54,11 +54,16 @@ function main() {
       }, 300)
     });
 
+    // 发送留言
+    $('#sendMsg').on('click', function () {
+      alert('此功能暂未开发')
+    })
+
     // 轮播图
     var mySwiper = new Swiper('.swiper-container', {
       loop: true, // 循环模式选项
       speed: 300,
-      autoplay:true,
+      autoplay: true,
       // 如果需要分页器
       pagination: {
         el: '.swiper-pagination',

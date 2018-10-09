@@ -241,18 +241,37 @@ header .intro-text {
 .swiper-container .swiper-text {
 	position: absolute;
 	text-align: center;
-	font-family: '微软雅黑';
-	color: #fff;
-	font-size: 34px;
-	font-weight: 700;
+	font-family: '黑体';
 	text-transform: uppercase;
 	top: 300px;
 	z-index: 2;
 	left: 50%;
 	transform: translateX(-50%);
 }
+.swiper-container .swiper-text h2 {
+	color: #fff;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 60px;
+}
+.swiper-container .swiper-text h2 i {
+	font-style: normal;
+	font-size: 68px;
+	font-weight: bolder;
+	font-family: '楷体';
+}
+.swiper-container .swiper-text h2:nth-child(1) {
+	padding-left: 20%;
+	text-align: left;
+}
+.swiper-container .swiper-text h2:nth-child(2) {
+	padding-right: 20%;
+	text-align: right;
+}
 .swiper-container .swiper-text p {
+	font-size: 24px;
 	line-height: 48px;
+	color: #fff;
 	text-shadow: 5px 5px 5px #2d2d2d;
 }
 .swiper-container img {
