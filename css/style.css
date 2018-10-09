@@ -248,6 +248,10 @@ header .intro-text {
 	left: 50%;
 	transform: translateX(-50%);
 }
+.swiper-container .swiper-text .font {
+	width: 500px;
+	margin: 0 auto;
+}
 .swiper-container .swiper-text h2 {
 	color: #fff;
 	font-weight: normal;
@@ -261,11 +265,9 @@ header .intro-text {
 	font-family: '楷体';
 }
 .swiper-container .swiper-text h2:nth-child(1) {
-	padding-left: 20%;
 	text-align: left;
 }
 .swiper-container .swiper-text h2:nth-child(2) {
-	padding-right: 20%;
 	text-align: right;
 }
 .swiper-container .swiper-text p {
