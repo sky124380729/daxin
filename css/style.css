@@ -251,6 +251,7 @@ header .intro-text {
 .swiper-container .swiper-text .font {
 	width: 500px;
 	margin: 0 auto;
+	text-shadow: 5px 5px 5px #000;
 }
 .swiper-container .swiper-text h2 {
 	color: #fff;
